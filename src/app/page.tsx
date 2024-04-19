@@ -1,10 +1,16 @@
-import Link from 'next/link';
+// import Link from 'next/link';
+import About from './about/page';
+import Projects from './projects/page';
+import Skills from './skills/page';
 
 export default function Home() {
   return (
   <main>
-    <h1> Home page </h1>
     
+    <About />
+    <Projects />
+    <Skills />
+        
   </main>
   );
 }
