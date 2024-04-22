@@ -16,10 +16,17 @@
     "uniqid": "^5.4.0"
   },
   "devDependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@react-firebase/auth": "^0.2.10",
     "@types/bootstrap": "^5.2.10",
     "@types/node": "^20",
     "@types/react": "^18",
+    "@types/prop-types": "^15.7.12",
+    "@types/styled-components": "^5.1.34",
     "@types/react-bootstrap": "^0.32.36",
+    "react-icons": "^5.1.0",
     "@types/react-dom": "^18",
     "@types/uniqid": "^5.3.4",
     "eslint": "^8",
