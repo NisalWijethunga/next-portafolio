@@ -3,7 +3,7 @@ import { GoTypography, GoContainer } from "react-icons/go";
 import { makeStyles } from "@material-ui/core/styles";
 import { FirstName, LastName } from "../../utils/getName";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles((theme: { spacing: (arg0: number) => any; }) => ({
   main: {
     maxWidth: '100vw',
     marginTop: "auto",
