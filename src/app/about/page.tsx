@@ -1,4 +1,6 @@
-import '../css/about.css'
+import '../../css/about.css';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 
 export default function About() {
     const about = {
@@ -42,7 +44,7 @@ export default function About() {
                 aria-label='github'
                 className='link link--icon'
               >
-                {/* <GitHubIcon /> */}
+                <FaGithub />
               </a>
             )}
 
@@ -52,7 +54,7 @@ export default function About() {
                 aria-label='linkedin'
                 className='link link--icon'
               >
-                {/* <LinkedInIcon /> */}
+                <FaLinkedinIn />
               </a>
             )}
           </>
