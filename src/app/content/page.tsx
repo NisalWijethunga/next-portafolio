@@ -1,7 +1,7 @@
 import React from "react";
 import { GoTypography, GoContainer } from "react-icons/go";
-import { makeStyles } from "@material-ui/core/styles";
-import { FirstName, LastName } from "../../utils/getName";
+// import { makeStyles } from "@material-ui/core/styles";
+// import { FirstName, LastName } from "../utils/getName";
 
 const useStyles = makeStyles((theme: { spacing: (arg0: number) => any; }) => ({
   main: {
@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme: { spacing: (arg0: number) => any; }) => ({
   },
 }));
 
-export const Content = () => {
+export default function Content() {
   const classes = useStyles();
 
   return (
@@ -39,3 +39,7 @@ export const Content = () => {
     </GoContainer>
   );
 };
+
+function makeStyles(arg0: (theme: { spacing: (arg0: number) => any; }) => { main: { maxWidth: string; marginTop: string; marginBottom: string; }; heading: { marginLeft: any; "@media (max-width: 768px)": { marginLeft: any; }; }; jobs: { "@media (max-width: 768px)": { fontSize: string; }; }; }) {
+  throw new Error("Function not implemented.");
+}
