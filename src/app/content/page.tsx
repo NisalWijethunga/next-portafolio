@@ -2,6 +2,7 @@ import React from "react";
 import { GoTypography, GoContainer } from "react-icons/go";
 import { makeStyles } from "@material-ui/core/styles";
 import { FirstName, LastName } from "../../utils/getName";
+import TextDecrypt from '../TextDecrypt';
 
 const useStyles = makeStyles((theme:any) => ({
   main: {
@@ -26,9 +27,9 @@ export const Content = () => {
   const classes = useStyles();
 
   return (
-    <GoContainer component="main" className={classes.main} maxWidth="md">
+    <GoContainer className={`${classes.main} ${classes.maxWidthContainer}`}>
       <div className={classes.heading}>
-        <GoTypography variant="h5" component="h2">
+        <GoTypography fontVariant="h5">
             <TextDecrypt text={`${FirstName} ${LastName}`} />
         </GoTypography>
       </div>

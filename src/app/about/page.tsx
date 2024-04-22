@@ -1,3 +1,5 @@
+import '../css/about.css'
+
 export default function About() {
     const about = {
         name: 'Nisal Wijethunga',
