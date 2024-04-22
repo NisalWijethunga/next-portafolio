@@ -1,7 +1,7 @@
 import React from "react";
 import { GoTypography, GoContainer } from "react-icons/go";
 import { makeStyles } from "@material-ui/core/styles";
-import { FirstName, LastName } from "../utils/getName";
+import { FirstName, LastName } from "../../utils/getName";
 
 const useStyles = makeStyles((theme:any) => ({
   main: {
@@ -22,8 +22,8 @@ const useStyles = makeStyles((theme:any) => ({
   },
 }));
 
-export default function Content() {
-  const classes =useStyles();
+export const Content = () => {
+  const classes = useStyles();
 
   return (
     <GoContainer component="main" className={classes.main} maxWidth="md">
@@ -35,5 +35,3 @@ export default function Content() {
     </GoContainer>
   );
 };
-
-
